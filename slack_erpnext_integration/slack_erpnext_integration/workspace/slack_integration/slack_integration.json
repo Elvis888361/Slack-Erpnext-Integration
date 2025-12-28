@@ -1,0 +1,92 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"_r_KqHCwF_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Slack Integration</b></span>\",\"col\":12}},{\"id\":\"_bKx0JqYHY\",\"type\":\"paragraph\",\"data\":{\"text\":\"Manage your Slack integrations and webhooks for ERPNext notifications.\",\"col\":12}},{\"id\":\"_1ELZhd5Pm\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Quick Links</b></span>\",\"col\":12}},{\"id\":\"_quick_links\",\"type\":\"quick_list\",\"data\":{\"quick_list_filter\":null,\"col\":12}},{\"id\":\"_rDg4NWhRn\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Settings & Configuration</b></span>\",\"col\":12}},{\"id\":\"_settings_links\",\"type\":\"quick_list\",\"data\":{\"quick_list_filter\":null,\"col\":12}},{\"id\":\"_notifications\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Notifications</b></span>\",\"col\":12}},{\"id\":\"_notification_links\",\"type\":\"quick_list\",\"data\":{\"quick_list_filter\":null,\"col\":12}},{\"id\":\"_setup_guide\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Setup Guide</b></span>\",\"col\":12}},{\"id\":\"_guide_text\",\"type\":\"paragraph\",\"data\":{\"text\":\"<ol><li>Create a Slack App in your Slack workspace</li><li>Enable Incoming Webhooks in your Slack App</li><li>Copy the Webhook URL from Slack</li><li>Create a new Slack Webhook URL in ERPNext with the copied URL</li><li>Create or edit a Notification and select 'Slack' as the channel</li><li>Select your configured Slack Webhook URL</li></ol>\",\"col\":12}}]",
+ "creation": "2025-12-28 12:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "slack",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Slack Integration",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Slack Webhook URLs",
+   "link_count": 0,
+   "link_to": "Slack Webhook URL",
+   "link_type": "DocType",
+   "onboard": 0,
+   "parent": "Slack Integration",
+   "parentfield": "links",
+   "parenttype": "Workspace",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Slack Settings",
+   "link_count": 0,
+   "link_to": "Slack Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "parent": "Slack Integration",
+   "parentfield": "links",
+   "parenttype": "Workspace",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Notifications",
+   "link_count": 0,
+   "link_to": "Notification",
+   "link_type": "DocType",
+   "onboard": 0,
+   "parent": "Slack Integration",
+   "parentfield": "links",
+   "parenttype": "Workspace",
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-12-28 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Slack ERPNext Integration",
+ "name": "Slack Integration",
+ "number_cards": [],
+ "onboarding": "",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "format": "{} Open",
+   "label": "Slack Webhook URL",
+   "link_to": "Slack Webhook URL",
+   "parent": "Slack Integration",
+   "parentfield": "shortcuts",
+   "parenttype": "Workspace",
+   "stats_filter": "{\"enabled\": 1}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "format": "{} Active",
+   "label": "Notifications",
+   "link_to": "Notification",
+   "parent": "Slack Integration",
+   "parentfield": "shortcuts",
+   "parenttype": "Workspace",
+   "stats_filter": "{\"enabled\": 1, \"channel\": \"Slack\"}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Slack Integration"
+}
