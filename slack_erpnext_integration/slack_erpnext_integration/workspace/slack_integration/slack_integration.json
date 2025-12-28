@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"_r_KqHCwF_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Slack Integration</b></span>\",\"col\":12}},{\"id\":\"_bKx0JqYHY\",\"type\":\"paragraph\",\"data\":{\"text\":\"Manage your Slack integrations and webhooks for ERPNext notifications.\",\"col\":12}},{\"id\":\"_1ELZhd5Pm\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Quick Links</b></span>\",\"col\":12}},{\"id\":\"_quick_links\",\"type\":\"quick_list\",\"data\":{\"quick_list_filter\":null,\"col\":12}},{\"id\":\"_rDg4NWhRn\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Settings & Configuration</b></span>\",\"col\":12}},{\"id\":\"_settings_links\",\"type\":\"quick_list\",\"data\":{\"quick_list_filter\":null,\"col\":12}},{\"id\":\"_notifications\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Notifications</b></span>\",\"col\":12}},{\"id\":\"_notification_links\",\"type\":\"quick_list\",\"data\":{\"quick_list_filter\":null,\"col\":12}},{\"id\":\"_setup_guide\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Setup Guide</b></span>\",\"col\":12}},{\"id\":\"_guide_text\",\"type\":\"paragraph\",\"data\":{\"text\":\"<ol><li>Create a Slack App in your Slack workspace</li><li>Enable Incoming Webhooks in your Slack App</li><li>Copy the Webhook URL from Slack</li><li>Create a new Slack Webhook URL in ERPNext with the copied URL</li><li>Create or edit a Notification and select 'Slack' as the channel</li><li>Select your configured Slack Webhook URL</li></ol>\",\"col\":12}}]",
+ "content": "[{\"id\":\"_intro\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Slack Integration</b></span>\",\"col\":12}},{\"id\":\"_desc\",\"type\":\"paragraph\",\"data\":{\"text\":\"Manage your Slack integrations and webhooks for ERPNext notifications.\",\"col\":12}},{\"id\":\"_setup_guide\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Setup Guide</b></span>\",\"col\":12}},{\"id\":\"_guide_text\",\"type\":\"paragraph\",\"data\":{\"text\":\"<ol><li>Create a Slack App in your Slack workspace</li><li>Enable Incoming Webhooks in your Slack App</li><li>Copy the Webhook URL from Slack</li><li>Create a new Slack Webhook URL in ERPNext with the copied URL</li><li>Create or edit a Notification and select 'Slack' as the channel</li><li>Select your configured Slack Webhook URL</li></ol>\",\"col\":12}}]",
  "creation": "2025-12-28 12:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +15,18 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Slack Webhook URLs",
+   "label": "Quick Links",
+   "link_count": 0,
+   "onboard": 0,
+   "parent": "Slack Integration",
+   "parentfield": "links",
+   "parenttype": "Workspace",
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Slack Webhook URL",
    "link_count": 0,
    "link_to": "Slack Webhook URL",
    "link_type": "DocType",
@@ -37,6 +48,17 @@
    "parentfield": "links",
    "parenttype": "Workspace",
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings & Configuration",
+   "link_count": 0,
+   "onboard": 0,
+   "parent": "Slack Integration",
+   "parentfield": "links",
+   "parenttype": "Workspace",
+   "type": "Card Break"
   },
   {
    "hidden": 0,
